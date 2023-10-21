@@ -14,10 +14,17 @@ p.bartext {
 
 h1 {
     font-family: FontBasics;
-    font-size: 5cm;
+    font-size: 2cm;
     text-align: center;
     text-transform: uppercase;
 }
+p.ct {
+    font-family: FontBasics;
+    font-size: 30pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 div.bar {
     background-color: #686464;
     display: flex;
@@ -38,7 +45,7 @@ div.subbar{
 div.bg {
     height: 100vh;
     padding-top: 30px;
-    background-color: darkgrey;
+    background-image: linear-gradient(#676767, #2b2b2b);
 }
 
 body {
@@ -50,12 +57,16 @@ body {
 img {
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
-    max-width: 15%;
-    max-height: auto;
 }
 img.logo {
     max-width: 15%;
     max-height: auto;
+}
+
+img.socials {
+    max-width: 5%;
+    max-height: auto;
+    padding-bottom: 5px;
 }
 
 button.socials {
@@ -81,4 +92,24 @@ button:active {
 div.socialbar{
     position:absolute;
     bottom: 0;
+}
+
+div.SocialItem{
+    padding-top:10px;
+    border-bottom: 5px solid black;
+    display:flex;
+}
+
+div.SocialTab {
+    padding-top: 5px;
+    background-color: grey;
+}
+
+a.Hyperlink {
+    font-family: FontBasics;
+    font-size: 45pt;
+    padding-left: 10px;
+    align-self: flex-start;
+    vertical-align: top;
+    color:white;
 }
