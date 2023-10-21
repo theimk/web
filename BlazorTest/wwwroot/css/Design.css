@@ -1,0 +1,84 @@
+﻿@font-face{
+    font-family : FontBasics;
+    src : url("/Assets/HackerBasic.ttf");
+}
+
+p.bartext {
+    font-family: FontBasics;
+    font-size: 50pt;
+    padding-left: 30%;
+    vertical-align: top;
+    user-select: none;
+    align-self: flex-start;
+}
+
+h1 {
+    font-family: FontBasics;
+    font-size: 5cm;
+    text-align: center;
+    text-transform: uppercase;
+}
+div.bar {
+    background-color: #686464;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+div.subbar{
+    width: 100%;
+    top:0;
+    display: flex;
+    position: relative;
+}
+
+
+div.bg {
+    height: 100vh;
+    padding-top: 30px;
+    background-color: darkgrey;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+img {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    max-width: 15%;
+    max-height: auto;
+}
+img.logo {
+    max-width: 15%;
+    max-height: auto;
+}
+
+button.socials {
+    height: 20%;
+    position: relative;
+    border-radius: 0%;
+    background-color: #3d3d3d;
+    color-interpolation: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: .1cm;
+    font-family: FontBasics;
+    box-sizing: border-box;
+    font-size: 25pt;
+    border-radius: 0.1cm;
+    color : white;
+}
+button:active {
+    background-color : #2a2a2af5;
+
+}
+
+div.socialbar{
+    position:absolute;
+    bottom: 0;
+}
